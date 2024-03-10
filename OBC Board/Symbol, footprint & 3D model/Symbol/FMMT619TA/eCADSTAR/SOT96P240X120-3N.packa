@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "FMMT619TA"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-04-01-11:27:35)
+    (mountForm default
+        (footprintRef "SOT96P240X120-3N")
+        (spec "System")
+    )
+)
