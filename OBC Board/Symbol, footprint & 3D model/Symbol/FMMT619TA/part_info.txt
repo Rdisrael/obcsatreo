@@ -1,9 +1,0 @@
-Manufacturer=Diodes Incorporated
-PartNumber=FMMT619TA
-PartCategory=Transistor BJT NPN
-PackageCategory=SOT23 (3-Pin)
-PinCount=3
-Version=5.1
-Released=2018-02-20 14:03:48
-Downloaded=2024-03-04 00:59:47
-3D=Y

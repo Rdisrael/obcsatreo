@@ -154,8 +154,8 @@
 	)
 	(bitmap
 		(name "")
-		(pos 71.62 25.0002)
-		(scale 0.3)
+		(pos 79.494 25.2542)
+		(scale 0.3333333333)
 		(data "iVBORw0KGgoAAAANSUhEUgAAAnQAAAOQCAIAAAA/qXu4AAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
 			"nOzdebjtV1kn+O/7vmv9fns4wx0SMkASAoQwSGQqFUGklMlGVKAs0Ke01bYdECzporQtKe1qC4tW"
 			"wdIWika7HNpyQBwAQXxoQAQEFAREkjAWhCQkuUnucM4efr+13vftP/ZNira4YV/uvvfcfXg/z83z"
@@ -2420,8 +2420,8 @@
 	)
 	(bitmap
 		(name "")
-		(pos 52.27 24.05)
-		(scale 1.578947368)
+		(pos 55.826 24.5582)
+		(scale 1.666666667)
 		(data "iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA3NCSVQICAjb4U/gAAAA8FBMVEX/"
 			"//////326unfqqnLdXPBX1/4/vfWjoy9AADIAACQwYw1mC47mDXC3cDL4soqlSL//v/EUFDJDQ6H"
 			"vITPendAmTzw1tTFNjnAEBLAGx7Zm53nwL/juLchkRjS59GZxJbl8ePoy8ru7ex3s3Rcn1dHnEJK"
@@ -2496,7 +2496,7 @@
 	)
 	(bitmap
 		(name "")
-		(pos 18.229 22.5322)
+		(pos 20.261 23.5482)
 		(scale 0.188)
 		(data "iVBORw0KGgoAAAANSUhEUgAAAyAAAAJYCAIAAAAVFBUnAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
 			"AA50AAAOdAFrJLPWAAAgAElEQVR4nOzdaXMcV5Ym6Pece909FmwEuGunpMxUpnKrzKru6umZtjKb"
@@ -5322,8 +5322,8 @@
 	)
 	(line
 		(name "")
-		(start 79.789 38.0822)
-		(end 79.789 12.6822)
+		(start 88.679 38.0822)
+		(end 88.679 12.6822)
 	)
 	(line
 		(name "")
