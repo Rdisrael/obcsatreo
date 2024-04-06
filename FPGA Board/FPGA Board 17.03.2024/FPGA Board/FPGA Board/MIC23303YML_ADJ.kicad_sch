@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "44977636-7e29-4f8e-b6ec-a158747d167e")
+	(paper "A4")
+	(title_block
+		(title "FPGA - SmartFusion2")
+		(company "IFSP - SBV, IFSP - GRU")
+		(comment 2 "WILLIAN BUENO SANTOS")
+		(comment 3 "ISRAEL RODRIGUES")
+		(comment 4 "ADRIANO CÉSAR DE SOUSA PEREIRA")
+	)
+	(lib_symbols)
+)
