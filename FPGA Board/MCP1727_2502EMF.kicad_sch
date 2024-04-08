@@ -1064,6 +1064,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 82.55) (xy 189.23 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "037aa017-5aa8-44ad-ad92-f205791d016c")
+	)
+	(wire
+		(pts
 			(xy 111.76 88.9) (xy 111.76 87.63)
 		)
 		(stroke
@@ -1181,6 +1191,16 @@
 			(type default)
 		)
 		(uuid "1944502c-0710-4b08-976e-ac7dcd3e2eb4")
+	)
+	(wire
+		(pts
+			(xy 34.29 161.29) (xy 46.99 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d6f7711-cf59-494e-ba8d-1bf6903eaaf4")
 	)
 	(wire
 		(pts
@@ -1324,7 +1344,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 83.82) (xy 187.96 87.63)
+			(xy 187.96 82.55) (xy 187.96 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1341,6 +1361,16 @@
 			(type default)
 		)
 		(uuid "88809425-1c3a-4046-9c16-97f59f383431")
+	)
+	(wire
+		(pts
+			(xy 33.02 180.34) (xy 46.99 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c833a87-97e8-4289-b993-011b67f1b7fe")
 	)
 	(wire
 		(pts
@@ -1371,6 +1401,16 @@
 			(type default)
 		)
 		(uuid "95fd8ac7-a7a2-462e-b247-890daa84afac")
+	)
+	(wire
+		(pts
+			(xy 33.02 171.45) (xy 46.99 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d9d556-d526-49e3-866c-1c0a4e64d2ac")
 	)
 	(wire
 		(pts
@@ -1665,15 +1705,15 @@
 		)
 		(uuid "3bb56937-949d-439f-8b20-5e273a821c97")
 	)
-	(text "Adicionar global e label: VCC e GND"
+	(text "Entrada de 5V do USB"
 		(exclude_from_sim no)
-		(at 65.278 144.018 0)
+		(at 111.506 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "e6fd26cc-880a-4a28-8bb5-8fc0e98b34e7")
+		(uuid "e3376e76-470c-4e13-ba56-1933139d2e20")
 	)
 	(label "5P0V"
 		(at 100.33 82.55 0)
@@ -1686,6 +1726,84 @@
 			(justify left bottom)
 		)
 		(uuid "4a87b6bc-b057-4809-9f2e-27cb5c52e66e")
+	)
+	(global_label "VCC_3V3"
+		(shape input)
+		(at 34.29 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "47d44b28-a997-4865-b37a-529bf3c683f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.201 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC_5V"
+		(shape input)
+		(at 33.02 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "708ab302-1888-4df5-a93f-184c9e407804")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.1405 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape output)
+		(at 33.02 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8dd8b12-e2a1-46ac-904f-e3b06b1aff7c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.1643 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "VCC_3V3"
+		(shape output)
+		(at 189.23 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e31a315-b6a9-4700-b444-a3b196afdcc5")
 	)
 	(symbol
 		(lib_id "power:Earth")
@@ -1883,72 +2001,6 @@
 			(project "FPGA Board"
 				(path "/43847dd5-7638-4c30-aa52-aebad58d47af/981cef80-e180-4c37-add0-d2428808eeb2"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 187.96 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d99a864-42a0-42be-8266-1f2a3b183add")
-		(property "Reference" "#PWR019"
-			(at 187.96 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 187.96 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 187.96 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f6328f8-cedb-4fae-9cc1-56126e416fdf")
-		)
-		(instances
-			(project "FPGA Board"
-				(path "/43847dd5-7638-4c30-aa52-aebad58d47af/981cef80-e180-4c37-add0-d2428808eeb2"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -2522,6 +2574,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 46.99 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "823d1fdd-1233-4aa4-ae01-1b1e313f5fd5")
+		(property "Reference" "#PWR024"
+			(at 46.99 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_3V3"
+			(at 46.99 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 46.99 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dc7fa1c-65ff-4e85-8143-aa6d9b768b4a")
+		)
+		(instances
+			(project "FPGA Board"
+				(path "/43847dd5-7638-4c30-aa52-aebad58d47af/981cef80-e180-4c37-add0-d2428808eeb2"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 124.46 96.52 0)
 		(unit 1)
@@ -2859,6 +2977,73 @@
 			(project "FPGA Board"
 				(path "/43847dd5-7638-4c30-aa52-aebad58d47af/981cef80-e180-4c37-add0-d2428808eeb2"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 46.99 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b9ecb5e-276d-4458-bb60-5177ba9035cd")
+		(property "Reference" "#PWR026"
+			(at 46.99 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 46.99 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07d091d9-ee3a-499e-a3d2-676157d3b8ec")
+		)
+		(instances
+			(project "FPGA Board"
+				(path "/43847dd5-7638-4c30-aa52-aebad58d47af/981cef80-e180-4c37-add0-d2428808eeb2"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -3281,6 +3466,72 @@
 			(project "FPGA Board"
 				(path "/43847dd5-7638-4c30-aa52-aebad58d47af/981cef80-e180-4c37-add0-d2428808eeb2"
 					(reference "C204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 46.99 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdc7758c-09f1-425c-a12b-17966cfff804")
+		(property "Reference" "#PWR025"
+			(at 46.99 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_5V"
+			(at 46.99 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 46.99 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "587e8b47-b4f7-427f-9d6f-781e2b373b86")
+		)
+		(instances
+			(project "FPGA Board"
+				(path "/43847dd5-7638-4c30-aa52-aebad58d47af/981cef80-e180-4c37-add0-d2428808eeb2"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
