@@ -573,7 +573,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "C:\\Users\\israe\\OneDrive\\Documentos\\Desenvolvimento-OBC\\OBC Board\\template\\OBC template.kicad_wks",
+    "page_layout_descr_file": "C:\\obcsatreo\\OBC Board\\template\\OBC template.kicad_wks",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
@@ -599,6 +599,10 @@
       " ESP32-S3, conversor USB para UART"
     ],
     [
+      "a6bb782f-6e7d-4bfe-8c25-3dc899ae3939",
+      "1.2V regulator: MIC23303YML ADJ"
+    ],
+    [
       "f6714adb-5760-4c1d-a2dd-335d8cb34c81",
       "ESP32-S3, interface USB para UART"
     ],
@@ -609,6 +613,22 @@
     [
       "3bcd5d59-0b77-47d4-82fb-30960d7dfeaa",
       "ESP32-S3, botão Boot e Reset com regulador"
+    ],
+    [
+      "9f81c816-5aa1-4d92-9baa-6bd694418f46",
+      "3,3V regulator: MCP1727-2502EMF"
+    ],
+    [
+      "59ada637-42e4-4d07-8fbf-2d0590b19da4",
+      "CLOCK & GND"
+    ],
+    [
+      "2f82ee7f-c925-410e-bd73-9d28f73056c1",
+      "M2S010-TQG144l (A)"
+    ],
+    [
+      "dd2c4e1f-c089-44a8-b037-27edd04b1842",
+      "M2S010-TQG144l (B)"
     ]
   ],
   "text_variables": {}

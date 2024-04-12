@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ICARUS-2 OBDH")
-		(date "2024-03-15")
+		(date "2024-03-24")
 		(rev "POC 2.0")
 		(comment 2 "WILLIAN BUENO SANTOS")
 		(comment 3 "ISRAEL RODRIGUES DUTRA")
